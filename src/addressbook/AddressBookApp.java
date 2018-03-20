@@ -79,14 +79,8 @@ public class AddressBookApp {
 			case 3:
 				System.out.println();
 				System.out.println("<<연락처 삭제>>");//삭제
-//				System.out.print("삭제할 이름을 입력하세요 : ");
 				System.out.print("삭제할 번호를 입력하세요 : ");
-//				String delete = sc.nextLine();
 				int del = isc.nextInt();
-//				while(!delete.equals(address.get(del).getName()))
-//				{
-//					del++;
-//				}
 				String n = address.get(del-1).getName();
 				address.remove(del-1);
 				System.out.println();
